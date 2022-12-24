@@ -1,0 +1,7 @@
+com/api/skyscanner/domain/TravelDetails.class
+com/api/skyscanner/domain/Traveller.class
+com/api/skyscanner/resolvers/BookController.class
+com/api/skyscanner/repo/BookRepository.class
+com/api/skyscanner/domain/Book$BookBuilder.class
+com/api/skyscanner/domain/Book.class
+com/api/skyscanner/SkyScannerApplication.class

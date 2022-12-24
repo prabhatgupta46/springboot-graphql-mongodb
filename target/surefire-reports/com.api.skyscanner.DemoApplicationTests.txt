@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.api.skyscanner.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.228 s <<< FAILURE! - in com.api.skyscanner.DemoApplicationTests
+contextLoads  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@3624da92 testClass = com.api.skyscanner.DemoApplicationTests, locations = [], classes = [com.api.skyscanner.SkyScannerApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@429bffaa, org.springframework.boot.test.graphql.tester.HttpGraphQlTesterContextCustomizer@fba92d3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@505fc5a4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@35aea049, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1b2abca6, org.springframework.boot.test.context.SpringBootTestAnnotation@11cad509], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: 
+mapping values are not allowed here
+ in 'reader', line 4, column 30:
+          authentication-database: admin
+                                 ^
+
+
